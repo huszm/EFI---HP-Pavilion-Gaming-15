@@ -1,43 +1,58 @@
-# EFI for HP-Pavilion-Gaming-15
-HP Gaming Pavilion - 15-dk0010nr
-## Hardware
-Product number
-6QZ94UA
-Product name
-HP Gaming Pavilion - 15-dk0010nr
-Microprocessor
-Intel® Core™ i5-9300H (2.4 GHz base frequency, up to 4.1 GHz base with Intel® Turbo Boost Technology, 8 MB cache, 4 cores)
-Chipset
-Intel® HM370
-Memory, standard
-8 GB DDR4-2666 SDRAM (1 x 8 GB)
-Video graphics
-Intel® UHD Graphics 630
-NVIDIA® GeForce® GTX 1050 (3 GB GDDR5 dedicated)
-Discrete
-Hard drive
-256 GB PCIe® NVMe™ M.2 SSD
-Optical drive
-Optical drive not included
-Display
-15.6" diagonal FHD IPS anti-glare micro-edge WLED- backlit (1920 x 1080)
-Wireless connectivity
-Realtek 802.11b/g/n/a/ac (2x2) and Bluetooth® 4.2 combo
-Network interface
-Integrated 10/100/1000 GbE LAN
-Expansion slots
-1 multi-format SD media card reader
-External ports
-1 USB 3.1 Gen 2 Type-C™ (10 Gb/s signaling rate, Power Delivery 3.0, DisplayPort™ 1.4, HP Sleep and Charge); 1 USB 3.1 Gen 1 Type-A (HP Sleep and Charge); 2 USB 3.1 Gen 1 Type-A (Data Transfer Only); 1 HDMI; 1 AC smart pin; 1 RJ-45; 1 headphone/microphone combo
-Minimum dimensions (W x D x H)
-36 x 25.6 x 2.34 cm
-Weight
-Starting at 2.25 kg
-Power supply type
-135 W AC power adapter
-Battery type
-3-cell, 52.5 Wh Li-ion
-Webcam
-HP Wide Vision HD Camera with integrated dual array digital microphone
-Audio features
-B&O, dual speakers, HP Audio Boost
+# Opencore-HP-Pavilion-Gaming-15-cx0056wm
+
+<B>OpenCore Hackintosh - HP Pavilion Gaming 15-cx0056wm</B>
+
+## Specifications
+
+| Specifications      | Detail                                      |
+| ------------------- | ------------------------------------------- |
+| Computer model      | HP Pavilion Gaming 15-dk0010nr              |
+| CPU                 | Intel Core i5-9300H                         |
+| Memory              | 8GB/8GB Crucial / SK Hynix                  |
+| SSD		              | Samsung SSD 970 EVO 500GB (PM981)		        |
+| HDD		              | Seagate ST2000LM007-1R817 2TB			 	        |
+| Integrated Graphics | Intel® UHD Graphics 630                     |
+| Dedicated Graphics  | NVIDIA GeForce GTX 1050 Ti                  |
+| Monitor             | FHD 1920x1080 (15.6 inch)                   |
+| Sound Card          | Realtek ALC285 (0x285		                    |
+| Wireless Card       | Realtek 802.11b/g/n/a/ac (2x2).             |
+| Ethernet/LAN        | Realtek RTL8168/8111 PCI-E Gigabit Ethernet |
+
+
+## Working
+- Intel UHD 630 Acceleration
+- CPU Power Management
+- IGPU Power Management
+- Battery Status / Time
+- Ethernet LAN
+- NVMe Storage
+- Realtek Audio & F7/F8 keys
+- Audio Combo Jack
+- Keyboard & Media/Function Keys
+- Trackpad & Gestures support
+- USB Type-A & Type-C ports
+- HP Webcam
+- Screen Brightness & F2/F3 Keys
+- And pretty much everything not listed below
+
+## Not Working
+- Intel Wireless & Bluetooth
+- - DRM (No HD playback on Netflix etc.)
+- SDXC Card Reader (Not supported in MacOS)
+- Dedicated GPU (Disabled in SSDT)
+- HDMI Port output (Seems to be hooked to the dedicated GPU)
+
+## Not Tested
+- Type-C HDMI does not have Audio
+
+
+## Credits
+- @1Revenger1 for ECEnabler
+- @acidanthera for bootloader, VirtualSMC, NVMeFix, Lilu and other kexts
+- @Apple for macOS
+- @dortania for guides
+- @OpenIntelWireless for WiFi & Bluetooth
+- @SkyrilHD for massive help and tips / fixes
+- @TECHNIKVERBOT for Monterey patches
+- @USBToolBox Team for USB mapping
+- @Voodoo Team for TrackPad
