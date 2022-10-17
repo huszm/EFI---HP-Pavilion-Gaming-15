@@ -1,6 +1,6 @@
 # EFI for HP-Pavilion-Gaming-15
 HP Gaming Pavilion - 15-dk0010nr
-##Hardware
+## Hardware
 Product number
 6QZ94UA
 Product name
