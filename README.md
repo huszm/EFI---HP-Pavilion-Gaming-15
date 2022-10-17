@@ -1,6 +1,6 @@
-# Opencore-HP-Pavilion-Gaming-15-cx0056wm
+# Opencore-HP-Pavilion-Gaming-15-dk0010nr
 
-<B>OpenCore Hackintosh - HP Pavilion Gaming 15-cx0056wm</B>
+<B>OpenCore Hackintosh - HP Pavilion Gaming 15-dk0010nr</B>
 
 ## Specifications
 
